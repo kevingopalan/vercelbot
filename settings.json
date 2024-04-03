@@ -1,0 +1,51 @@
+{
+  "bot-account": {
+    "username": "nxafkbot",
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "nano_xserver.aternos.me",
+    "port": 55245,
+    "version": "1.19.3"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": ""
+    },
+
+    "anti-afk": {
+      "enabled": false,
+      "sneak": false,
+      "circle-walk": true,
+      "jump": true
+    },
+
+    "chat-messages": {
+      "enabled": false,
+      "repeat": true,
+      "repeat-delay": 60,
+
+      "messages": [
+        "I'm a bot ",
+        "My owner is nano_x1",
+        "Leave me alone ",
+        "Don't touch me I'm a bot"
+      ]
+    },
+
+    "chat-log": false,
+    "auto-reconnect": true,
+    "auto-recconect-delay": 5000
+  }
+}
